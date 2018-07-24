@@ -18,5 +18,9 @@ public class MainPageElemTest {
 		String elAct = "form";
 		Assert.assertEquals(elAct, elExp);
 	}
+@Test
+	public void testMainPageisTrue() {
+		Assert.assertTrue(true);
+	}
 
 }
